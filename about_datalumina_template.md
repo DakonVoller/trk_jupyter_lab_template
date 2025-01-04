@@ -1,3 +1,13 @@
+# TRK Mono Repo
+This template for folder structure is used for the python data lab for The Ronin Kingdom. 
+* These template notes are to contexualize our usse of the project template.
+* The template branch is datalumina_template.
+* The template branch has a README.md file is unchanged from the starting template.
+* This is a copy of that README.md file with some notes about how we choose to apply the template.
+* The template branch is so we can delete and modify the template and how we use it to suit our own needs but be able to go back and see or restore what we later end up missing.
+* This long document is not needed for using this repository.
+*For more info see this link:
+
 # Data Project Template
 
 <a target="_blank" href="https://datalumina.com/">
@@ -8,6 +18,7 @@
 This project template is a simplified version of the [Cookiecutter Data Science](https://cookiecutter-data-science.drivendata.org) template, created to suit the needs of Datalumina and made available as a GitHub template.
 
 ## Adjusting .gitignore
+* [ TRK we will distribute some data files using git either to work on them or as examples. If you are not the data manager then use scratch_data. ]
 
 Ensure you adjust the `.gitignore` file according to your project needs. For example, since this is a template, the `/data/` folder is commented out and data will not be exlucded from source control:
 

@@ -9,19 +9,19 @@ __pycache__/
 .Python
 env/
 build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+# develop-eggs/
+# dist/
+# downloads/
+# eggs/
+# .eggs/
+# lib/
+# lib64/
+# parts/
+# sdist/
+# var/
+# *.egg-info/
+# .installed.cfg
+# *.egg
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -29,26 +29,26 @@ var/
 *.manifest
 *.spec
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# # Installer logs
+# pip-log.txt
+# pip-delete-this-directory.txt
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+# # Unit test / coverage reports
+# htmlcov/
+# .tox/
+# .coverage
+# .coverage.*
+# .cache
+# nosetests.xml
+# coverage.xml
+# *.cover
 
 # Translations
 *.mo
 *.pot
 
-# Django stuff:
-*.log
+# # Django stuff:
+# *.log
 
 # Sphinx documentation
 docs/_build/
@@ -86,11 +86,15 @@ target/
 # Mypy cache
 .mypy_cache/
 
-# Exclude virtual environment
-.venv/
+# # Exclude virtual environment
+# .venv/
 
-# Exclude trained models
-/models/
+# # Exclude trained models
+# /models/
+
+# this was alreeady commended out:
+# we may want to share the data folder
 
 # exclude data from source control by default
 # /data/
+/scratch
