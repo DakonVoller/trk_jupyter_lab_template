@@ -1,4 +1,4 @@
-# TRK template Repo for projects, or mono repo for experinments 
+# TRK template Repo for projects, or mono repo for experiments 
 This template for folder structure is used for the python data lab for The Ronin Kingdom. 
 * These template notes are to contexualize our usse of the project template.
 * The template branch is datalumina_template and has fruther notes.  
